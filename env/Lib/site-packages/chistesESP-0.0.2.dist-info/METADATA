@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: chistesESP
+Version: 0.0.2
+Summary: Un paquete que contiene un comando que obtiene chistes de chistes.com
+Home-page: https://github.com/netherpills/chistesESP-py
+Author: netherpills
+Author-email: mari394334@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+ï»¿# chistesESP-py
+Script de Python que te permite obtener un chiste al azar de miles con un comando.
+
+## Utilidad
+```python
+import chistesESP as c
+
+chiste = c.get_random_chiste()
+print(chiste)
+```
+
+## DocumentaciÃ³n
+La Ãºnica funciÃ³n, **get_random_chiste()**, devuelve como string el texto de un div [en esta pÃ¡gina](http://www.chistes.com/ChisteAlAzar.asp?n=3).
+
+## CrÃ©ditos
+1. La pÃ¡gina _chistes.com_ porque de ahÃ­ saco los chistes.
+2. El mÃ³dulo _BeautifulSoup_
+
+
